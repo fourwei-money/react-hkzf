@@ -8,8 +8,8 @@ class Search extends React.Component {
             haha: '搜索搜索搜索'
         }
     }
-    render() {
-        return <div>{this.state.haha}</div>
-    }
+    // render() {
+    //     return <div>{this.state.haha}</div>
+    // }
 }
 export default withRouter(Search)
